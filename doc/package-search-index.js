@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"com.example.rolitgame","l":"com.example.rolitgame"},{"m":"com.example.rolitgame","l":"com.example.rolitgame.Klassen"},{"m":"com.example.rolitgame","l":"com.example.rolitgame.View"}];updateSearchResults();

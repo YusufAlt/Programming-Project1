@@ -1,0 +1,38 @@
+.root {
+    -fx-background-image: url("/background-image.jpg"); /* Pad naar je afbeelding */
+    -fx-background-size: cover; /* Zorgt dat de afbeelding de hele achtergrond bedekt */
+    -fx-background-position: center; /* Centreert de afbeelding */
+    -fx-background-repeat: no-repeat; /* Voorkomt herhaling */
+}
+
+/* Stijl voor de tekst in de startscherm */
+.text {
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-fill: #ffffff; /* Donkergrijs voor de tekstkleur */
+    -fx-alignment: center;
+    -fx-text-align: center;
+}
+
+/* Stijl voor de Start en Quit knoppen */
+.button {
+    -fx-font-size: 16px;
+    -fx-padding: 10px 10px;
+    -fx-text-fill: white; /* Witte tekstkleur */
+    -fx-cursor: hand; /* Handcursor bij hover */
+    -fx-effect: dropshadow(gaussian, #000, 10, 0.5, 0, 2); /* Schaduw effect */
+}
+
+/* Stijl voor knoppen wanneer je er met de muis over beweegt */
+.button:hover {
+    -fx-background-color: #403e40; /* Donkergroene achtergrondkleur bij hover */
+    -fx-effect: dropshadow(gaussian, #000, 10, 0.8, 0, 2); /* Versterkte schaduw bij hover */
+}
+
+/* Specifieke stijl voor het startscherm, bijvoorbeeld uitlijnen van de knoppen */
+.vbox {
+    -fx-spacing: 20px; /* Ruimte tussen de elementen */
+    -fx-alignment: center; /* Centraal uitlijnen van de knoppen en tekst */
+    -fx-padding: 50px; /* Padding rondom de VBox */
+}
+
